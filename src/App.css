@@ -1,0 +1,143 @@
+/* Elementos padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292524;
+  color: var(--neutral);
+
+  font-family: var(--ff);
+  font-size: 16px;
+
+  padding: 3rem 1rem 0px;
+}
+
+h1 {
+  font-family: var(--tiitle);
+  font-size: 2.625rem;
+  text-transform: uppercase;
+  line-height: 1;
+
+  margin-top: 6px;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  overflow: auto;
+  padding-bottom: 2.5rem;
+}
+
+/* Estrutura */
+#root {
+  max-width: 93.75rem;
+  margin: 0 auto;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 3rem;
+  height: calc(100vh - 48px - 68px - 40px);
+}
+
+/* Botões */
+.btn {
+  border: none;
+  border-radius: 6.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+
+  font-family: var(--tiitle);
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 1.0625rem;
+  padding: 1rem 0 0.8125rem;
+
+  background-image: linear-gradient(135deg, #3b82f6, #ef4444, #16a34a, #eab308);
+  color: inherit;
+}
+
+.btn:hover {
+  transform: scale(110%) rotate(-2deg);
+}
+
+.btn-large {
+  font-size: 1.25rem;
+  padding: 1.25rem 2rem 1.0625rem;
+}
+
+.message {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+/* ScrollBar */
+section::-webkit-scrollbar-track {
+  border-radius: 50vw;
+}
+
+section::-webkit-scrollbar-thumb {
+  background-color: #3a393748;
+  border-radius: 100vw;
+  opacity: 0.3;
+}
+
+section::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
+}
+
+section::-webkit-scrollbar {
+  width: 1em;
+}
+
+.loading {
+  background-color: #292524;
+}
+
+/* Estética  */
+@media (min-width: 410px) and (max-width: 599px) {
+  body {
+    padding: 3rem 3rem 0px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    padding: 3rem 4rem 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  #root {
+    padding: 2rem;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .fact-form {
+    padding: 1rem;
+  }
+
+  .fact {
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .main {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}

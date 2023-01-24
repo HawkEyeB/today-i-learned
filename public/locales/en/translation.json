@@ -1,0 +1,12 @@
+{
+  "tittle": "Today I Learned",
+  "buttonOpen": "Share a Fact",
+  "buttonClose": "Close",
+  "noFacts": "No facts for this category yet! Create the first one🎈",
+  "quantityFacts": "There are {{facts}} facts in the database. Add your own!",
+  "facts": "Share a fact with the world...",
+  "source": "Trustworthy source...",
+  "categoria": "Choose a category",
+  "post": "post",
+  "loading": "loading..."
+}
