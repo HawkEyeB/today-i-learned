@@ -1,7 +1,7 @@
 # Hoje eu Aprendi 
 [In case you want to read in English](#today-i-learned)
 
-## [Today I Learned site](https://todayilearned-pedro.netlify.app/)
+## [Site Hoje eu Aprendi](https://todayilearned-pedro.netlify.app/)
 
 <table>
   <tr>
@@ -26,6 +26,9 @@ Ainda estou aprendendo sobre local storage, então nesse projeto é possível um
 - Cadastrar notícias.
 - Selecionar notícias com base em categorias.
 - Realizar votos em notícias para dizer se são verídicas ou não.
+- Fatos são organizados por ordem de likes
+- Caso o fato tenha um número maior de reprovação do que like, ele é classificado como falso
+- Não é possível retirar o voto, pois eu ainda estou aprendendo sobre armazenamento 
 
 ## Caso queira rodar em sua própria máquina.
 * Ter alguma IDE, de preferência o VSCODE por ser leve.
@@ -60,6 +63,9 @@ I'm still learning about local storage, so in this project it's possible for one
 - Register news.
 - Select news based on categories.
 - Perform votes on news to say if they are true or not.
+- Facts are arranged in order of likes
+- If the fact has a higher number of disapprovals than likes, it is classified as false
+- Unable to unvote as I am still learning about storage
 
 ## If you want to run on your own machine.
 * Install some IDE, preferably VSCODE for being a very light IDE.
