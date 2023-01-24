@@ -19,7 +19,7 @@
 Today I Learned foi um projeto que eu desenvolvi de React e Vite no curso do professor Jonas Schmedtmann na Udemy. <br>
 O app é um armazenador de fatos e notícias em que qualquer um pode adicionar notícias e votar nelas com báse na veracidade. <br>
 Esse app é apenas para teste de conhecimento de React. <br>
-Eu também tentei usar i18next para tradução (Faço meus apps em Inglês para treinar), mas não consegui traduzir tudo por falta de conhecimento na ferramenta <br>
+Eu também tentei usar i18next para tradução (Faço meus apps em Inglês para treinar), mas não consegui traduzir tudo por falta de conhecimento na ferramenta, logo retirei o arquivo de tradução pt-br por conselhos e deixar tudo inglês <br>
 Ainda estou aprendendo sobre local storage, então nesse projeto é possível uma pessoa votar várias vezes.
 
 ## Funcionalidades
